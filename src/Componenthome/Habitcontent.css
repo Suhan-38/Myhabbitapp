@@ -48,6 +48,7 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    
 }
 @media (max-width: 1200px) {
     .habitsingleitem{
@@ -63,6 +64,9 @@
         overflow-x: auto;
         overflow-y: hidden;
         padding: 15px 0p;
+    }
+    .calender{
+         height: 110%;
     }
     
 }
