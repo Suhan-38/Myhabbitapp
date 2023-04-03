@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Myhabbitapp/static/css/main.3bd89793.css",
+    "main.js": "/Myhabbitapp/static/js/main.19306e97.js",
+    "index.html": "/Myhabbitapp/index.html",
+    "main.3bd89793.css.map": "/Myhabbitapp/static/css/main.3bd89793.css.map",
+    "main.19306e97.js.map": "/Myhabbitapp/static/js/main.19306e97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bd89793.css",
+    "static/js/main.19306e97.js"
+  ]
+}
