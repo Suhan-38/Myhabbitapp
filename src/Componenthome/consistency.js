@@ -1,5 +1,5 @@
 import { DONE,NONE,NOT_DONE } from "./constant"
-
+//this the consistency array which is used to store status of progress;
 export const consistency= [
     {
       day: 1,
