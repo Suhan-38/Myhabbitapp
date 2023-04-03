@@ -1,0 +1,65 @@
+.addhabitpage{
+    width: 100%;
+    height: 100%;
+}
+.flexhabit{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+
+}
+.input-container{
+    border: 2px solid green;
+    height: 100%;
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+#addbutton{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    background-color: green;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.addform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    gap: 30px;
+    flex-direction: column;
+}
+input,textarea{
+    width: 95%;
+    padding: 2.5%;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    border: 2px solid green;
+}
+::placeholder{
+    font-size: 22px;
+    font-weight: 700;
+    color: gray;
+}
+@media (max-width: 800px) {
+    .flexhabit{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 20px;
+    }
+    ::placeholder{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+}
